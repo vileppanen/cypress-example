@@ -11,8 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/vileppanen/cypress-example.git"
   },
-  "author": "",
+  "author": "Ville Leppänen",
   "license": "MIT",
+  "keywords": [ "cypress", "ui", "tests" ],
   "bugs": {
     "url": "https://github.com/vileppanen/cypress-example/issues"
   },
