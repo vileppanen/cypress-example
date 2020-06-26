@@ -1,11 +1,14 @@
 /// <reference types="cypress" />
 
+/*
+ This suite demonstrates more functional approach on verifying some layout expectations.
+ However, verifying like this could become cumbersome in the long run.
+*/
 context('demo-app', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000')
   })
 
-  // https://on.cypress.io/interacting-with-elements
   context('app layout', () => {
     context('when resolution 1440x900', () => {
       const VIEWPORT_WIDTH = 1440
@@ -32,6 +35,14 @@ context('demo-app', () => {
           cy.get(APP_BAR)
           .then($el => $el[0].getBoundingClientRect())
           .should('contain', { height: 36 })
+        })
+        context('logo', () => {
+          const LOGO = 'img.App-logo'
+          it('should not overflow from app bar', () => {
+            cy.get(LOGO)
+              .then($el => $el[0].getBoundingClientRect())
+              .should('contain', { height: 36 })
+          });
         })
       })
     })
