@@ -1,0 +1,25 @@
+{
+  "name": "cypress-example",
+  "version": "1.0.0",
+  "description": "experimenting with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "demo-app:open": "cd demo-app && npm ci && npm start",
+    "start": "npm run demo-app:open && npm run cypress:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vileppanen/cypress-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vileppanen/cypress-example/issues"
+  },
+  "homepage": "https://github.com/vileppanen/cypress-example#readme",
+  "devDependencies": {
+    "cypress": "^4.9.0"
+  }
+}
