@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-context('codesandbox demo', () => {
+context('demo-app', () => {
   beforeEach(() => {
     cy.visit('http://localhost:3000')
   })
