@@ -1,7 +1,7 @@
 # react-cypress-template
 
 This project contains template example on including Cypress with an actual React client project.
-It also provides a simplistic setup for integrating with [Percy](https://percy.io/) (a platform for automating visual validation, that can be hooked into CI pipelines and GitHub).
+It also provides a simplistic setup for integrating with [Percy](https://percy.io/) (a platform for visual validation review process, that can be hooked into CI pipelines and GitHub).
 
 Currently, it demonstrates simple testing examples to verify, that the application UI should fulfill certain requirements.
 
@@ -24,6 +24,8 @@ This folder inhabits visual validation tests based on image snapshots difference
 This folder inhabits visual tests that integrate with Percy.
 
 ## Usage
+
+First, run `npm ci`
 
 **Note on running tests for Percy**
 
