@@ -23,18 +23,18 @@ context('demo-app', () => {
         })
         it('should be on top', () => {
           cy.get(APP_BAR)
-          .then($el => $el[0].getBoundingClientRect())
-          .should('contain', { top: 0, left: 0 })
+            .then($el => $el[0].getBoundingClientRect())
+            .should('contain', { top: 0, left: 0 })
         })
         it('should be of full width', () => {
           cy.get(APP_BAR)
-          .then($el => $el[0].getBoundingClientRect())
-          .should('contain', { width: VIEWPORT_WIDTH })
+            .then($el => $el[0].getBoundingClientRect())
+            .should('contain', { width: VIEWPORT_WIDTH })
         })
         it('should be of height 36px', () => {
           cy.get(APP_BAR)
-          .then($el => $el[0].getBoundingClientRect())
-          .should('contain', { height: 36 })
+            .then($el => $el[0].getBoundingClientRect())
+            .should('contain', { height: 36 })
         })
         context('logo', () => {
           const LOGO = 'img.App-logo'
@@ -42,7 +42,7 @@ context('demo-app', () => {
             cy.get(LOGO)
               .then($el => $el[0].getBoundingClientRect())
               .should('contain', { height: 36 })
-          });
+          })
         })
       })
     })

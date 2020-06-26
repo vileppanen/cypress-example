@@ -13,12 +13,31 @@
   },
   "author": "Ville Leppänen",
   "license": "MIT",
-  "keywords": [ "cypress", "ui", "tests" ],
+  "keywords": [
+    "cypress",
+    "ui",
+    "tests"
+  ],
   "bugs": {
     "url": "https://github.com/vileppanen/cypress-example/issues"
   },
   "homepage": "https://github.com/vileppanen/cypress-example#readme",
   "devDependencies": {
-    "cypress": "^4.9.0"
-  }
+    "cypress": "^4.9.0",
+    "cypress-plugin-snapshots": "^1.4.3",
+    "js-base64": "2.5.2",
+    "standard": "^14.3.4"
+  },
+  "standard": {
+    "globals": [
+      "context",
+      "it",
+      "cy",
+      "beforeEach",
+      "expect",
+      "fetch",
+      "test"
+    ]
+  },
+  "dependencies": {}
 }
