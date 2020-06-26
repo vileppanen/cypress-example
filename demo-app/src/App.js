@@ -17,6 +17,7 @@ function App () {
       <div>
         asdf
       </div>
+      <div>asnother div</div>
     </div>
   )
 }
