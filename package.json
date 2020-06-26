@@ -1,7 +1,7 @@
 {
-  "name": "cypress-example",
+  "name": "react-cypress-example",
   "version": "1.0.0",
-  "description": "experiments with Cypress",
+  "description": "Simple project template for React client, that accompanies Cypress and Percy integration preset",
   "main": "index.js",
   "scripts": {
     "cypress:open": "better-npm-run cypress:open",

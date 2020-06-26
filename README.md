@@ -1,8 +1,9 @@
-# cypress-example
+# react-cypress-template
 
-This project contains example on including Cypress with actual client project.
+This project contains template example on including Cypress with an actual React client project.
+It also provides a simplistic setup for integrating with [Percy](https://percy.io/) (a platform for automating visual validation, that can be hooked into CI pipelines and GitHub).
 
-Currently, it shows a simple layout testing examples to verify, that the application UI should fulfill certain requirements.
+Currently, it demonstrates simple testing examples to verify, that the application UI should fulfill certain requirements.
 
 ## Tests
 
@@ -10,7 +11,9 @@ The project inhabits both **functional** and **visual** tests, under `cypress/in
 
 ### functional
 
-This folder inhabits functional ui tests, to demonstrate how certain aspects of an app structure can be verified. However, as this might grow cumbersome to maintain in the long run and with larger projects, verifying layout changes and breakages might be more useful to do with visual validation.
+This folder inhabits functional UI tests, to demonstrate how certain aspects of an app structure can be verified. However, as this might grow cumbersome to maintain in the long run and with larger projects, verifying layout changes and breakages might be more useful to do with visual validation.
+
+More useful is to provide functional tests for verifying the UI workflow.
 
 ### visual
 
@@ -18,8 +21,7 @@ This folder inhabits visual validation tests based on image snapshots difference
 
 ### visual-percy
 
-This folder inhabits visual tests that take snapshots and store them in [Percy](https://percy.io/) (a platform for automating visual validation, that can be hooked into CI pipelines and GitHub).
-
+This folder inhabits visual tests that integrate with Percy.
 
 ## Usage
 
