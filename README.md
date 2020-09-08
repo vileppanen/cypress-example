@@ -15,21 +15,9 @@ This folder inhabits functional UI tests, to demonstrate how certain aspects of 
 
 More useful is to provide functional tests for verifying the UI workflow.
 
-### visual
-
-This folder inhabits visual validation tests based on image snapshots difference comparison. It leverages the `cypress-plugin-snapshots` plugin to store snapshots inside the project and verifies changes against them.
-
-### visual-percy
-
-This folder inhabits visual tests that integrate with Percy.
-
 ## Usage
 
 First, run `npm ci`
-
-**Note on running tests for Percy**
-
-As the Percy integrates with an existing project in the Percy platform, you have to provide a `PERCY_TOKEN` environment variable in order to store the snapshots. More detailed information can be found [here](https://docs.percy.io/docs/environment-variables#required).
 
 ### Development mode
 
@@ -37,26 +25,8 @@ As the Percy integrates with an existing project in the Percy platform, you have
 2. On second terminal, start the Cypress server by running `npm run cypress:open`
 3. Both servers use hot-reloading, go on and start hacking!
 
-### Development mode using Percy
-
-1. On one terminal, start the local dev server for the `demo-app` by running `npm run demo-app`
-
-2. On second terminal, set the `PERCY_TOKEN` environment variable with the token value for your Percy project.
-
-3. On the same terminal, start the Cypress server bu running `npm run cypress:percy:open`
-
-When you exit the development mode, the generated snapshots will be posted to Percy.
-
 ### Single run in terminal
 
 1. On one terminal, start the local dev server for the `demo-app` by running `npm run demo-app`
 
 2. On second terminal, start the Cypress server by running `npm run cypress`
-
-### Single run in terminal using Percy
-
-1. On one terminal, start the local dev server for the `demo-app` by running `npm run demo-app`
-
-2. On second terminal, set the `PERCY_TOKEN` environment variable with the token value for your Percy project.
-
-3. On second terminal, start the Cypress server by running `npm run cypress:percy`

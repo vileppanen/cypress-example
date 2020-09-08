@@ -3,5 +3,9 @@
         "**/__snapshots__/*",
         "**/__image_snapshots__/*"
     ],
-    "video": false
+    "video": false,
+    "retries": {
+        "runMode": 1,
+        "openMode": 2
+    }
 }

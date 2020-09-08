@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 // ***********************************************************
 // This example plugins/index.js can be used to load plugins
 //
@@ -9,11 +8,6 @@
 // https://on.cypress.io/plugins-guide
 // ***********************************************************
 
-const { initPlugin } = require('cypress-plugin-snapshots/plugin')
-const percyHealthCheck = require('@percy/cypress/task')
-
 module.exports = (on, config) => {
-  initPlugin(on, config)
-  on("task", percyHealthCheck)
   return config
 }
