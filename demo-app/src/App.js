@@ -14,7 +14,6 @@ const App = () => {
       </header>
       <main className='App-content'>
         {(loggedIn === true) ? <MainContent /> : <LoginForm handleLogin={setLoggedIn} />}
-
       </main>
       <footer className='App-footer'>
         &copy; rutabaga
