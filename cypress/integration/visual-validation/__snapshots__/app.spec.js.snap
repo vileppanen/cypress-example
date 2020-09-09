@@ -112,7 +112,7 @@ exports[`snapshots > text snapshot #0`] = `
           </fieldset>
         </form>
       </main>
-      <footer class="App-footer">© rutabaga FDG</footer>
+      <footer class="App-footer">© rutabaga</footer>
     </div>
   </div>
   <!--
@@ -126,8 +126,7 @@ exports[`snapshots > text snapshot #0`] = `
       To create a production bundle, use \`npm run build\` or \`yarn build\`.
     -->
   <script src="/static/js/bundle.js"></script>
-  <script src="/static/js/1.chunk.js"></script>
+  <script src="/static/js/0.chunk.js"></script>
   <script src="/static/js/main.chunk.js"></script>
-  <script src="/main.7b5e181e99ce1baaa2d4.hot-update.js"></script>
 </body>
 `;
