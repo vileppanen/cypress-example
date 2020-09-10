@@ -7,5 +7,23 @@
     "retries": {
         "runMode": 1,
         "openMode": 2
+    },
+    "env": {
+        "cypress-plugin-snapshots": {
+            "screenshotConfig": {
+                "blackout": [],
+                "capture": "fullPage",
+                "clip": null,
+                "disableTimersAndAnimations": true,
+                "log": false,
+                "scale": false,
+                "timeout": 30000
+            },
+            "imageConfig": {
+                "createDiffImage": true,
+                "threshold": 1,
+                "thresholdType": "pixel"
+            }
+        }
     }
 }

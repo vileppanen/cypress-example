@@ -1,0 +1,132 @@
+exports[`text snapshots > toMatchSnapshot - HTML #0`] = `
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div class="App">
+      <header class="App-bar">
+        <img
+          src="/static/media/logo.5d5d9eef.svg"
+          class="App-logo"
+          alt="logo"
+        />
+      </header>
+      <main class="App-content">
+        <form>
+          <fieldset>
+            <div>
+              <label>User name</label><input type="text" name="username" />
+            </div>
+            <div>
+              <label>Password</label><input type="password" name="password" />
+            </div>
+            <div><button id="login">Login</button></div>
+          </fieldset>
+        </form>
+      </main>
+      <footer class="App-footer">© rutabaga</footer>
+    </div>
+  </div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run \`npm start\` or \`yarn start\`.
+      To create a production bundle, use \`npm run build\` or \`yarn build\`.
+    -->
+  <script src="/static/js/bundle.js"></script>
+  <script src="/static/js/0.chunk.js"></script>
+  <script src="/static/js/main.chunk.js"></script>
+</body>
+`;
+
+exports[`text snapshots > toMatchSnapshot - HTML #1`] = `
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div class="App">
+      <header class="App-bar">
+        <img
+          src="/static/media/logo.5d5d9eef.svg"
+          class="App-logo2"
+          alt="logo"
+        />
+      </header>
+      <main class="App-content">
+        <form>
+          <fieldset>
+            <div>
+              <label>User name</label><input type="text" name="username" />
+            </div>
+            <div>
+              <label>Password</label><input type="password" name="password" />
+            </div>
+            <div><button id="login">Login</button></div>
+          </fieldset>
+        </form>
+      </main>
+      <footer class="App-footer">© rutabaga</footer>
+    </div>
+  </div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run \`npm start\` or \`yarn start\`.
+      To create a production bundle, use \`npm run build\` or \`yarn build\`.
+    -->
+  <script src="/static/js/bundle.js"></script>
+  <script src="/static/js/1.chunk.js"></script>
+  <script src="/static/js/main.chunk.js"></script>
+  <script src="/main.c0e6b58be6e97ddebf29.hot-update.js"></script>
+</body>
+`;
+
+exports[`snapshots > text snapshot #0`] = `
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div class="App">
+      <header class="App-bar">
+        <img
+          src="/static/media/logo.5d5d9eef.svg"
+          class="App-logo"
+          alt="logo"
+        />
+      </header>
+      <main class="App-content">
+        <form>
+          <fieldset>
+            <div>
+              <label>User name</label><input type="text" name="username" />
+            </div>
+            <div>
+              <label>Password</label><input type="password" name="password" />
+            </div>
+            <div><button id="login">Login</button></div>
+          </fieldset>
+        </form>
+      </main>
+      <footer class="App-footer">© rutabaga</footer>
+    </div>
+  </div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run \`npm start\` or \`yarn start\`.
+      To create a production bundle, use \`npm run build\` or \`yarn build\`.
+    -->
+  <script src="/static/js/bundle.js"></script>
+  <script src="/static/js/0.chunk.js"></script>
+  <script src="/static/js/main.chunk.js"></script>
+</body>
+`;
