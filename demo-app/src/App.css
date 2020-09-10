@@ -6,6 +6,8 @@
   min-height: inherit;
   max-height: inherit;
   pointer-events: none;
+  animation-name: App-logo-spin;
+  animation-duration: 4s;
 }
 
 .App-bar {
